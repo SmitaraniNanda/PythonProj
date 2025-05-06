@@ -82,7 +82,7 @@ str1 = "4"
 str2 = "5"
 # Convert both to integers
 product = int(str1) * int(str2)
-print(product)  
+print(product)
 
 
 num = 9.81
