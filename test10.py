@@ -5,7 +5,7 @@ tuple_data = (42, "Hello", 3.14, [1, 2, 3], (9, 8))
 print("Created Tuple:", tuple_data)
 
 # 2. Access Elements
-my_tuple = ('apple', [10, 20], (1, 2, 3), 4.5, 'banana')
+my_tuple = ('apple', [20, 30], (1, 2, 3), 4.5, 'banana')
 print("Second element:", my_tuple[1])
 print("Third element’s second item:", my_tuple[2][1])
 
