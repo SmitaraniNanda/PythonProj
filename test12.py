@@ -90,6 +90,7 @@ for shape in shapes:
     print(f"{shape.__class__.__name__} Area: {shape.area():.2f}")
 print("\n")
 
+
 # 4. Notification System
 
 class Notification:
