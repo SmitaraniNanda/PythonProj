@@ -16,7 +16,7 @@ def scores_above_threshold(data, threshold):
         if score > threshold:
             print(name)
 
-scores_above_threshold([("Alice", 85), ("Bob", 60), ("Charlie", 95)], 70)
+scores_above_threshold([("Smita", 85), ("Mamali", 60), ("Puspa", 95)], 70)
 
 
 # 3. Sets + For Loop + Lambda
@@ -138,7 +138,7 @@ print("Outside function:", local_var)
 def label_salaries(salaries):
     return {name: ('High' if salary > 100000 else 'Low') for name, salary in salaries.items()}
 
-salaries = {"Alice": 120000, "Bob": 80000, "Charlie": 105000}
+salaries = {"Smita": 120000, "Mamali": 80000, "Puspa": 105000}
 print("9:", label_salaries(salaries))
 
 
