@@ -88,7 +88,7 @@ print("Updated students:", students)
 squares = [x**2 for x in range(1, 11)]
 print("Squares from 1 to 10:", squares)
 
-# Mini Project 1: Calculator
+# 1: Calculator
 print("Simple Calculator")
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
@@ -105,7 +105,7 @@ elif operation == "/":
 else:
     print("Invalid operation")
 
-# Mini Project 2: Number Guessing Game
+# 2: Number Guessing Game
 import random
 secret_number = random.randint(1, 100)
 guess = -1
@@ -118,7 +118,7 @@ while guess != secret_number:
     else:
         print("Correct!")
 
-# Mini Project 3: To-Do List CLI App
+# 3: To-Do List CLI App
 todo_list = []
 while True:
     action = input("Choose: add/view/remove/exit: ").strip().lower()
@@ -139,7 +139,7 @@ while True:
     else:
         print("Unknown command")
 
-# Mini Project 4: Basic Contact Book
+# 4: Basic Contact Book
 contacts = {}
 while True:
     action = input("Choose: add/view/exit: ").strip().lower()
